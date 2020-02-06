@@ -19,7 +19,7 @@ let lib = Libs.ReferralLib;
 let reflist = lib.currentUser.refList;
 reflist = lib.currentUser.refList.get();
 let tgid = user.telegramid
-let reflink = Libs.ReferralLib.currentUser.getRefLink("LuckyChampsBot");
+let reflink = Libs.ReferralLib.currentUser.getRefLink("LuckyChampsBot","");
 
 let msg;
 if(reflist.length>0){
