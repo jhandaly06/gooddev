@@ -1,5 +1,5 @@
-# LuckyChampsBot - chat bot
-It is repository for chat bot: [@LuckyChampsBot](https://t.me/LuckyChampsBot)
+# LuckOfLuckbot - chat bot
+It is repository for chat bot: [@LuckOfLuckbot](https://t.me/LuckOfLuckbot)
 
 ## What it is?
 This repository can be imported to [Bots.Business](https://bots.business) as a worked chat bot.

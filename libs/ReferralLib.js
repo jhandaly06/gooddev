@@ -143,9 +143,9 @@ function getRefLink(botName, prefix){
   }
 
   let aff_link='https://t.me/' + botName + 
-    '?start=' + prefix + user.tgid;
+    '?start=' + prefix + user.id;
 
-  let userKey = 'user' + user.tgid;
+  let userKey = 'user' + user.id;
   user.chatId = chat.chatid;
   Bot.setProperty('REFLIB_' + userKey, user, 'json');
   return aff_link;
